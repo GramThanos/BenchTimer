@@ -21,6 +21,7 @@ int main(int argc, char *argv[]){
 	double min = 99999, avg, max = 0, diff;
 	// Test Loops
 	int loops = 10;
+	int i;
 
 	// Create a benchtimer object
 	test_timer = benchtimer_create();
@@ -32,7 +33,7 @@ int main(int argc, char *argv[]){
 	printf("We call Sleep(ms) on Windows and usleep(ms * 1000) on Linux\n\n");
 
 	// Make tests
-	for (int i = 0; i < loops; ++i) {
+	for (i = 0; i < loops; ++i) {
 		// Generate random milliseconds
 		ms = rand() % 1000;
 

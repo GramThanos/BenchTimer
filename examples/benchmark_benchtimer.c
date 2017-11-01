@@ -20,6 +20,7 @@ int main(int argc, char *argv[]){
 	double min = 99999, avg, max = 0, value;
 	// Test Loops
 	int loops = 10000;
+	int i;
 
 	// Create 2 benchtimer objects
 	test_timer = benchtimer_create();
@@ -31,7 +32,7 @@ int main(int argc, char *argv[]){
 	printf("Benchtimer test on Benchtimer times\n");
 
 	// Make tests
-	for (int i = 0; i < loops; ++i) {
+	for (i = 0; i < loops; ++i) {
 		// Start actual benchtimer
 		benchtimer_start(actual_timer);
 		// Start test benchtimer
