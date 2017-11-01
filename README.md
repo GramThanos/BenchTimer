@@ -11,7 +11,7 @@ This library let you easily record task timings during execution [Download](http
 Both Windows and Linux support.
 
 ## Usage
-```
+```C
 // Create a timer
 benchtimer* timer = benchtimer_create();
 // Start the timer
