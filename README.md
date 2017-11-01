@@ -10,7 +10,9 @@ This library let you easily record task timings during execution. [[Download]](h
 
 Both Windows and Linux support.
 
-## Usage
+___
+
+### Usage
 ```C
 // Create a timer
 benchtimer* timer = benchtimer_create();
@@ -29,11 +31,15 @@ double seconds = benchtimer_get(timer);
 printf("Task executed in %lf milliseconds\n", seconds * 1000);
 ```
 
-## Examples
+___
+
+### Examples
 You can find full examples codes inside the "examples" folder.
 [Go to examples](https://github.com/GramThanos/BenchTimer/tree/master/examples)
 
-## Contact me
+___
+
+### Contact me
 
 Contact us to leave us your feedback or to express your thoughts.
 
@@ -41,19 +47,16 @@ Contact us to leave us your feedback or to express your thoughts.
 
 [Send me a mail](mailto:agrammatopoulos@isc.tuc.gr)
 
+___
 
-
-## Buy me a beer :beer:
-
-I like beer, you can buy me one by donating to my Bitcoin wallet
-
-My Bitcoin wallet address `173advnPpAgh4UDJXd2TFwTCgAppBKvqKF`
-
-
-
-## License
+### License
 
 This project is under [The MIT license](https://opensource.org/licenses/MIT).
 We do although appreciate attribute.
 
 Copyright (c) 2017 Grammatopoulos Athanasios-Vasileios
+
+___
+
+[![GramThanos](https://avatars2.githubusercontent.com/u/14858959?s=42&v=4)](https://github.com/GramThanos)
+[![DinoDevs](https://avatars1.githubusercontent.com/u/17518066?s=42&v=4)](https://github.com/DinoDevs)
