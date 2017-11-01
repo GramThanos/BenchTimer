@@ -7,7 +7,8 @@
 A C benchmark timer library
 
 This library let you easily record task timings during execution [Download](https://github.com/GramThanos/BenchTimer/releases)
-Supports both Windows and Linux.
+
+Both Windows and Linux support.
 
 ## Usage
 ```
