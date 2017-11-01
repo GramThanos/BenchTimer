@@ -6,7 +6,7 @@
 # BenchTimer
 A C benchmark timer library
 
-This library let you easily record task timings during execution [Download](https://github.com/GramThanos/BenchTimer/releases)
+This library let you easily record task timings during execution. [[Download]](https://github.com/GramThanos/BenchTimer/releases)
 
 Both Windows and Linux support.
 
